@@ -4,11 +4,11 @@ brut="./brut.cpp" ## plik z naszym wolnym rozwiązaniem
 limit_czasu=1.5 # limit czasu w sekundach (limit z zadania podzielony na dwa (pamiętamy o liniowym spadku punktów od połowy czasu))
 limit_ram=256 #limir ramu w kilobajtach (na OI limit jest podany w mebibajtach możesz to sobie przeliczać na kalkulatorze(kalkulator gnome ma tą konwersje))
 
-g++ -O2 -Wall -Wextra -fsanitize=address -std=c++23 "$gen" 
+g++ -O2 -Wall -Wextra -std=c++23 "$gen" 
 
-g++ -O2 -Wall -Wextra -fsanitize=address -std=c++23 "$wzor" 
+g++ -O2 -Wall -Wextra -std=c++23 "$wzor" 
 
-g++ -O2 -Wall -Wextra -fsanitize=address -std=c++23  "$brut" 
+g++ -O2 -Wall -Wextra -std=c++23  "$brut" 
 
 echo "skrypt się uruchomił"
 
