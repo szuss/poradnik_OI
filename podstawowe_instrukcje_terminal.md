@@ -20,21 +20,23 @@ By odpalić terminal naciśnij ctrl + alt + t na linuxie lub win + r i wpisz cmd
 - ctrl + z
 7. Kopiowanie i wklejanie
 - by wkleić daj ctrl + shift + v , a by skopiować daj ctrl + shift + c
-
+8. Klikając w strzałki (góra, dół) możesz się cofnąć do poprzednich komend.
+9. Naciśnięcie tabulatora powoduje auto uzupełnienie obecnie wpisywanego wyrazu dzięki czemu nie trzeba przepisywać całej części pliku.
+10. Wypisanie czegoś na terminal
+- wpisz echo "*co chcesz wypisać*"
+11. Wyłączenie terminala
+- wpisz exit
 # tylko na Linuxie
 możliwe, że niektóre poniższe komendy działają na windowsie ale nie jestem tego pewien
 1. otwieranie plików
 - masz plik tekstowy (niektóre formaty jak .doc nie zadziałają), który chcesz zedytować wpisz nano plik.rozszerzenie
 - masz inny plik wpisz open plik.rozszerzenie
 - do przeglądania less *plik*
-2. wypisanie czegoś na terminal
-- wpisz echo "*co chcesz wypisać*"
-3. Przekierowanie danych z programu do pliku (lub programu)
+2. Przekierowanie danych z programu do pliku (lub programu)
 - wyczyszczenie pliku lub jego utworzenie > np. echo "Wojtek Furas" > plik (istotne **nie możesz odwracać *>*** komenda echo "Wojtek Furas" < plik jest czymś zupełnie innym)
 - doklejenie na koniec pliku >> np zad >> plik
-4. Przekierowanie danych z pliku (bądź programu) do programu
+3. Przekierowanie danych z pliku (bądź programu) do programu
 - wpisz szachy < ruch.txt
+4. [więcej](https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/)
 5. Wyłączenie terminala
-- wpisz exit
-- naciśnij ctrl + d
-6. [więcej](https://www.astrouw.edu.pl/~jskowron/pracownia/komendy/)
+- wpisz exit lub ctrl + d
