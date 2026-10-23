@@ -6,7 +6,7 @@ limit_ram=256 #limit ramu w kilobajtach (na OI limit jest podany w mebibajtach m
 rozszerzenie_wejscia="in"  # rozszerzenie plików wejściowych w pierwszym folderze
 rozszerzenie_wyjscia="out"     # rozszerzenie pliku z odpowiedzia w drugim folderze
 
-g++ -O2 -Wall -Wextra -fsanitize=address -std=c++23 "$program"
+g++ -O2 -Wall -Wextra -std=c++23 "$program"
 
 echo "skrypt się uruchomił"
 
