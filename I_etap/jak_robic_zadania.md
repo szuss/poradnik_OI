@@ -119,7 +119,7 @@ Jest pewien typ zadań w których nie możesz pisać
 ``` cpp
 cin.tie(nullptr);
 ```
-są to zadania interaktywne, więc jak w zadaniu będzie napisane, że takie jest to daj tylko pierwszą linijkę przyspieszającą.
+są to zadania interaktywne, więc jak w zadaniu będzie napisane, że takie jest to daj tylko pierwszą linijkę przyspieszającą. Chociaż czasami nie możesz też korzystać z pierwszej linijki dlatego najlepiej wysłać wersje z pierwszą i bez pierwszej linijki.
 
 Jeżeli mamy milion liczb na wejściu to wtedy możemy skorzystać z
 ## getchar_unlocked()
