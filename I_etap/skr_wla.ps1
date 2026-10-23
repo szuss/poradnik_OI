@@ -1,3 +1,4 @@
+# pamietaj by dac Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 # Konfiguracja 
 $gen = "gen.cpp"
 $wzor = "wzor.cpp"
