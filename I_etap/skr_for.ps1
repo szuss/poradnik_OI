@@ -13,7 +13,7 @@ $rozszerzenie_wyjscia = "out"
  
  
 # Kompilacja za pomocą g++ (wymaga zainstalowanego MinGW/GCC w systemie)
-g++ -O2 -Wall -Wextra -fsanitize=address -std=c++23 $plik_zrodlowy -o $rozwiazanie
+g++ -O2 -Wall -Wextra -std=c++23 $plik_zrodlowy -o $rozwiazanie
  
 # Sprawdzenie, czy kompilacja się powiodła
 if ($LASTEXITCODE -ne 0) {
