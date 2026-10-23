@@ -18,6 +18,8 @@ By odpalić terminal naciśnij ctrl + alt + t na linuxie lub win + r i wpisz cmd
 6. Zakończenie aktualnego procesu
 - ctrl + c
 - ctrl + z
+7. Kopiowanie i wklejanie
+- by wkleić daj ctrl + shift + v , a by skopiować daj ctrl + shift + c
 
 # tylko na Linuxie
 możliwe, że niektóre poniższe komendy działają na windowsie ale nie jestem tego pewien
