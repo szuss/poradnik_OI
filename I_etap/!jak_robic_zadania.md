@@ -146,7 +146,7 @@ inline void wczy(int &a) {
         a = a * 10 + c - '0';
         c = getchar_unlocked();
     }
-    return ujemne ? -a : a; // jezeli ujemna to zwroc -a, w przeciwnym wypadku zwróć 0
+    return ujemne ? -a : a; // jezeli ujemna to zwroc -a, w przeciwnym wypadku zwróć a
 }
 
 // wtedy by wczytać zmienną k dajemy
